@@ -24,6 +24,14 @@ def load_jobs(file_path):
     # 把读取到的岗位列表返回给调用这个函数的地方
     return jobs
 
+# with open("result.json", "w", encoding="utf-8") as f:
+#     json.dump(
+#         jobs,
+#         f,                                把 Python 里的 job 写进文件 f。
+#         ensure_ascii=False,        JSON 有中文会自动转义 → ensure_ascii=False
+#         indent=4                  格式漂亮、容易阅读
+#     )
+
 
 # =========================================================
 # 功能 2：按照城市筛选岗位
