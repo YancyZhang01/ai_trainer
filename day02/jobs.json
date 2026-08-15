@@ -1,0 +1,20 @@
+[
+    {
+        "company": "公司A",
+        "position": "RAG Intern",
+        "city": "杭州",
+        "skills": ["Python", "RAG", "LLM", "Git"]
+    },
+    {
+        "company": "公司B",
+        "position": "AI产品实习生",
+        "city": "上海",
+        "skills": ["Prompt", "RAG", "SQL"]
+    },
+    {
+        "company": "公司C",
+        "position": "Agent Intern",
+        "city": "杭州",
+        "skills": ["Python", "Agent", "Git"]
+    }
+]
