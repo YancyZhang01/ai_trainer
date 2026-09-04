@@ -40,7 +40,7 @@ model_name = "BAAI/bge-small-zh-v1.5"
 model = SentenceTransformer(
     model_name,
     device="cpu"
-)
+) 
 
 print("模型加载完成")
 print("document 数量:", len(documents))
@@ -77,22 +77,40 @@ print("FAISS index 中向量数量:", index.ntotal)
 
 
 # =========================
-# 5. 用户输入 query
+# 5. 用户输入多个 query
+# 每个 query 用逗号隔开，回车结束
 # =========================
-query = input("\n请输入你的搜索问题：")
+query_input = input(
+    "\n请输入多个搜索问题，用逗号隔开，按回车结束：\n"
+)
+
+# 同时支持英文逗号 , 和中文逗号 ，
+query_input = query_input.replace("，", ",")
+
+queries = [
+    query.strip()
+    for query in query_input.split(",")
+    if query.strip()
+]
+
+print("\n=== Queries ===")
+print("query 数量:", len(queries))
+
+for i, query in enumerate(queries, start=1):
+    print(f"Query {i}: {query}")
 
 
 # =========================
-# 6. query embedding
+# 6. 多个 query embedding
 # =========================
-query_embedding = model.encode(
-    [query],
+query_embeddings = model.encode(
+    queries,
     convert_to_numpy=True,
     normalize_embeddings=True
 )
 
 print("\n=== Query Embedding ===")
-print("query_embedding.shape:", query_embedding.shape)
+print("query_embeddings.shape:", query_embeddings.shape)
 
 
 # =========================
@@ -101,31 +119,34 @@ print("query_embedding.shape:", query_embedding.shape)
 top_k = 3
 
 scores, indices = index.search(
-    query_embedding,
+    query_embeddings,
     top_k
 )
 
 print("\n=== Search Result Shape ===")
 print("scores.shape:", scores.shape)
 print("indices.shape:", indices.shape)
-print(
-    "Index Total:",
-    index.ntotal
-)
 
 
 # =========================
-# 8. 输出 Top 3
+# 8. 输出每个 Query 的 Top 3
 # =========================
 print("\n==========================")
-print("Query:", query)
-print("Top 3 Semantic Search Results")
+print("Semantic Search Results")
 print("==========================")
 
-for rank, (doc_index, score) in enumerate(
-    zip(indices[0], scores[0]),
-    start=1
-):
-    print(f"\nRank: {rank}")
-    print(f"Score: {score:.4f}")
-    print(f"Document: {documents[doc_index]}")
+for query_index, query in enumerate(queries):
+
+    print(f"\nQuery {query_index + 1}: {query}")
+    print("--------------------------")
+
+    for rank, (doc_index, score) in enumerate(
+        zip(
+            indices[query_index],
+            scores[query_index]
+        ),
+        start=1
+    ):
+        print(f"\nRank: {rank}")
+        print(f"Score: {score:.4f}")
+        print(f"Document: {documents[doc_index]}")
