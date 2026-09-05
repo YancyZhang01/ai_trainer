@@ -6,7 +6,7 @@ from google import genai
 from google.genai import types
 
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.6-flash"
 TEMPERATURE = 0.2
 SYSTEM_PROMPT = (
     "你是一个严谨的问答助手。请直接、准确地回答用户的问题。"
