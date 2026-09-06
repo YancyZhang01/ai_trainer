@@ -7,9 +7,9 @@ from google.genai import types
 
 
 MODEL_NAME = "gemini-3.6-flash"
-TEMPERATURE = 0.2
+TEMPERATURE = 0.1
 SYSTEM_PROMPT = (
-    "你是一个严谨的问答助手。请直接、准确地回答用户的问题。"
+     "你是一个严谨的问答助手。请直接、准确地回答用户的问题。"
     "如果你不知道答案或没有足够把握，只回答“不知道”，不要猜测或编造。"
 )
 ENV_FILE = Path(__file__).resolve().parent.parent / ".env"
