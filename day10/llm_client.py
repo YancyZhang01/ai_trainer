@@ -38,7 +38,7 @@ def get_api_key():
     return os.getenv("GEMINI_API_KEY")
 
 
-def ask_llm(question, api_key):
+def ask_llm(question, api_key, system_prompt=SYSTEM_PROMPT):
     for attempt in range(1, RETRY_MAX + 1):
         try:
             client = genai.Client(api_key=api_key)
@@ -46,7 +46,7 @@ def ask_llm(question, api_key):
                 model=MODEL_NAME,
                 contents=question,
                 config=types.GenerateContentConfig(
-                    system_instruction=SYSTEM_PROMPT,
+                    system_instruction=system_prompt,
                     temperature=TEMPERATURE,
                     response_mime_type="application/json",
                     response_json_schema=ANSWER_SCHEMA,
