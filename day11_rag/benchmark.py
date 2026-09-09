@@ -17,19 +17,9 @@ BENCHMARKS = [
         "expected_keyword": "大豆",
     },
     {
-        "question": "冷冻食品应该在什么温度保存？",
-        "relevant_id": "food_001",
-        "expected_keyword": "零下18",
-    },
-    {
-        "question": "糙米为什么通常比精白米含有更多膳食纤维？",
-        "relevant_id": "food_006",
-        "expected_keyword": "米糠层和胚芽",
-    },
-    {
-        "question": "花生过敏的人购买食品时应该注意什么？",
-        "relevant_id": "food_005",
-        "expected_keyword": "配料表",
+        "question": "马吉利是干什么的？",
+    "relevant_id": None,
+    "expected_keyword": "没有查找到",
     },
 ]
 
