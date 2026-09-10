@@ -9,7 +9,7 @@ from sentence_transformers import SentenceTransformer
 
 CHUNK_SIZE = 80
 CHUNK_OVERLAP = 20
-TOP_K = 3
+TOP_K = 1
 MODEL_NAME = "BAAI/bge-small-zh-v1.5"
 
 
