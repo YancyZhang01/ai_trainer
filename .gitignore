@@ -2,3 +2,5 @@
 .venv-gpu/
 __pycache__/
 .env
+day14/results/ragas_prompt_cache/
+day14/results/ragas_score_cache.json

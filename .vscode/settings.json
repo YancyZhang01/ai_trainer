@@ -1,0 +1,17 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Markdown bold text",
+        "scope": [
+          "markup.bold.markdown",
+          "markup.bold"
+        ],
+        "settings": {
+          "foreground": "#FF5555",
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  }
+}

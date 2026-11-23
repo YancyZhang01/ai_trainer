@@ -1,7 +1,12 @@
 """食品 RAG 的 Benchmark 数据和简单评测逻辑。"""
 
 from documents import FOOD_DOCUMENTS
-from llm import NO_EVIDENCE_MESSAGE, generate_answer, load_api_key
+from llm import (
+    NO_EVIDENCE_MESSAGE,
+    generate_answer,
+    get_config_error,
+    load_api_key,
+)
 from retriever import TOP_K, build_index, has_relevant_evidence, print_contexts, retrieve
 
 
@@ -60,8 +65,9 @@ def evaluate_case(benchmark, model, index, api_key):
 def evaluate():
     """运行全部 Benchmark，并输出简单汇总指标。"""
     api_key = load_api_key()
-    if not api_key:
-        print("未读取到 GEMINI_API_KEY，请在项目根目录的 .env 文件中设置。")
+    config_error = get_config_error(api_key)
+    if config_error:
+        print(config_error)
         return
 
     model, index = build_index(FOOD_DOCUMENTS)

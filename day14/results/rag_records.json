@@ -1,0 +1,2350 @@
+[
+  {
+    "case_id": "simple_01",
+    "question": "冷冻食品应该在什么温度下保存？",
+    "retrieved_ids": [
+      "food_001",
+      "food_008",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_001",
+        "score": 0.8069548606872559,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.6016768217086792,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.5136055946350098,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "冷冻食品应保存在零下18摄氏度或更低的温度。",
+    "sources": [
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_02",
+    "question": "低温保存冷冻食品可以减缓什么？",
+    "retrieved_ids": [
+      "food_001",
+      "food_008",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_001",
+        "score": 0.8187068700790405,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.6097689270973206,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.5350526571273804,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "根据Context，冷冻食品应保存在零下18摄氏度或更低的温度，低温保存可以减缓微生物生长和品质变化。",
+    "sources": [
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_03",
+    "question": "冷冻食品为什么要低温保存？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_001",
+      "food_008",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_001",
+        "score": 0.7875363826751709,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5894031524658203,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.5661020278930664,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "冷冻食品低温保存是为了减缓微生物生长和品质变化。",
+    "sources": [
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_04",
+    "question": "知识库列举了哪些柑橘类水果？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_002",
+      "food_008",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_002",
+        "score": 0.6787947416305542,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.35526716709136963,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.34579551219940186,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "知识库列举的柑橘类水果包括橙子和柚子。",
+    "sources": [
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_05",
+    "question": "柑橘类水果通常富含哪种维生素？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_002",
+      "food_005",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_002",
+        "score": 0.8882419466972351,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.4842330813407898,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.4698824882507324,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "维生素C",
+    "sources": [
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_06",
+    "question": "酸奶是由什么菌发酵制成的？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_003",
+      "food_004",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_003",
+        "score": 0.83414626121521,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_004",
+        "score": 0.45145803689956665,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.4151793420314789,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "酸奶是由乳酸菌发酵制成的。",
+    "sources": [
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_07",
+    "question": "制作酸奶所发酵的原料是什么？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_003",
+      "food_004",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_003",
+        "score": 0.8033976554870605,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_004",
+        "score": 0.4912155270576477,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4084900915622711,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "酸奶是由乳酸菌发酵牛奶制成的乳制品，因此发酵的原料是牛奶。",
+    "sources": [
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_08",
+    "question": "酸奶通常含有哪些营养成分？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_003",
+      "food_002",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_003",
+        "score": 0.8350582122802734,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_002",
+        "score": 0.5314652323722839,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4758847653865814,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "酸奶通常含有蛋白质和钙等营养成分。",
+    "sources": [
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_09",
+    "question": "豆腐的主要原料是什么？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_003",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.8401855826377869,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.41613414883613586,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.3772105574607849,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "豆腐的主要原料是大豆。",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_10",
+    "question": "豆腐的制作过程包括哪些步骤？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_008",
+      "food_003"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.8229004144668579,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.4264753758907318,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.4151726961135864,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      }
+    ],
+    "answer": "豆腐的制作过程通常包括磨浆、煮浆、凝固和压制。",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_11",
+    "question": "豆腐制作过程的最后一步是什么？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_007",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.7324401140213013,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.3808589577674866,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.3622512221336365,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "豆腐制作过程的最后一步是压制。",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_12",
+    "question": "花生属于哪类食品安全风险？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_005",
+      "food_008",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_005",
+        "score": 0.6900193691253662,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.45832228660583496,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4270366430282593,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "花生属于常见的食物过敏原相关的食品安全风险。",
+    "sources": [
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_13",
+    "question": "花生过敏者购买食品时应采取什么措施？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_005",
+      "food_008",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_005",
+        "score": 0.827700138092041,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5752782225608826,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5419560670852661,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "对花生过敏的人应检查食品配料表并避免摄入。",
+    "sources": [
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_14",
+    "question": "糙米保留了稻米的哪些部分？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_006",
+      "food_008",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_006",
+        "score": 0.7329472303390503,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.43634265661239624,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4183238446712494,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "糙米保留了米糠层和胚芽。",
+    "sources": [
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_15",
+    "question": "糙米和精白米相比，哪一种通常含有更多膳食纤维？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_006",
+      "food_002",
+      "food_003"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_006",
+        "score": 0.869603157043457,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_002",
+        "score": 0.4619746208190918,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.4618878960609436,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      }
+    ],
+    "answer": "糙米通常比精白米含有更多膳食纤维。",
+    "sources": [
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_16",
+    "question": "糙米膳食纤维较多的原因是什么？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_006",
+      "food_007",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_006",
+        "score": 0.8111573457717896,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.5470131635665894,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.4804939925670624,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "糙米膳食纤维较多的原因是它保留了米糠层和胚芽。",
+    "sources": [
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_17",
+    "question": "蔬菜长时间高温烹煮可能损失什么？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_007",
+      "food_001",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_007",
+        "score": 0.8704178333282471,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5366849899291992,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5121883153915405,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。",
+    "sources": [
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_18",
+    "question": "哪种烹饪方式可能造成蔬菜营养流失？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_007",
+      "food_001",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_007",
+        "score": 0.7412815093994141,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5169952511787415,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.49651938676834106,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "长时间高温烹煮可能造成蔬菜部分水溶性维生素流失。",
+    "sources": [
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_19",
+    "question": "开封后的干燥食品应该怎样存放？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_008",
+      "food_001",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_008",
+        "score": 0.8518715500831604,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5397013425827026,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.45909810066223145,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。",
+    "sources": [
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "simple_20",
+    "question": "正确保存开封干燥食品可以降低哪些风险？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_008",
+      "food_001",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_008",
+        "score": 0.824593186378479,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5935133695602417,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.5251196622848511,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "正确保存开封干燥食品可以降低受潮和变质风险。",
+    "sources": [
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_01",
+    "question": "冰冻食物至少要放在多冷的环境里？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_001",
+      "food_008",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_001",
+        "score": 0.7411518692970276,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.58946692943573,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.5472174882888794,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "冷冻食品应保存在零下18摄氏度或更低的温度。",
+    "sources": [
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_02",
+    "question": "想从水果中补充维C，可以选择文档提到的哪些水果？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_002",
+      "food_006",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_002",
+        "score": 0.6897678375244141,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.42892158031463623,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.42758309841156006,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "橙子、柚子等柑橘类水果。",
+    "sources": [
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_03",
+    "question": "牛奶经过哪种微生物作用会变成酸奶？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_003",
+      "food_001",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_003",
+        "score": 0.769267737865448,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.45182669162750244,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.4506673812866211,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "牛奶经过乳酸菌发酵会变成酸奶。",
+    "sources": [
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_04",
+    "question": "把大豆做成豆腐通常要经历哪些工序？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_008",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.8015454411506653,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.44126737117767334,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.4277961850166321,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "大豆做成豆腐通常要经历的工序包括磨浆、煮浆、凝固和压制。",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_05",
+    "question": "对花生敏感的人挑选包装食品时该看哪里？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_005",
+      "food_008",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_005",
+        "score": 0.6888364553451538,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.48218995332717896,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4520707130432129,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "应检查食品配料表。",
+    "sources": [
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_06",
+    "question": "没有完全精制的米为什么纤维更丰富？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_006",
+      "food_002",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_006",
+        "score": 0.7020845413208008,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_002",
+        "score": 0.4205276370048523,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.420063853263855,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "根据Context，糙米没有完全精制，保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。",
+    "sources": [
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_07",
+    "question": "一直用高温煮蔬菜会对其中的营养产生什么影响？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_007",
+      "food_001",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_007",
+        "score": 0.799379825592041,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5570380091667175,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5265008211135864,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。",
+    "sources": [
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_08",
+    "question": "开袋后的干货怎样放才不容易返潮坏掉？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_008",
+      "food_001",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_008",
+        "score": 0.6029903292655945,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4087297320365906,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.3683015704154968,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。",
+    "sources": [
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_09",
+    "question": "什么储存条件能够抑制冻品中的微生物并延缓品质改变？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_001",
+      "food_008",
+      "food_006"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_001",
+        "score": 0.739226758480072,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5913510322570801,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.46293628215789795,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      }
+    ],
+    "answer": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。",
+    "sources": [
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "paraphrase_10",
+    "question": "这种发酵乳制品除了制作菌种外，文档还提到哪些营养？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_003",
+      "food_008",
+      "food_006"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_003",
+        "score": 0.6205592155456543,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.49685972929000854,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.47565457224845886,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      }
+    ],
+    "answer": "文档提到酸奶通常含有蛋白质和钙等营养成分。",
+    "sources": [
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_01",
+    "question": "冷冻食品和开封后的干燥食品分别应该怎样保存？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_008",
+      "food_001",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_008",
+        "score": 0.8031673431396484,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.7084022760391235,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.5134499073028564,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "冷冻食品应保存在零下18摄氏度或更低的温度；开封后的干燥食品应密封并存放在阴凉干燥处。",
+    "sources": [
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_02",
+    "question": "酸奶和柑橘类水果分别能提供哪些营养成分？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_002",
+      "food_003",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_002",
+        "score": 0.6922521591186523,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.665830671787262,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.45209455490112305,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "酸奶通常含有蛋白质和钙等营养成分；柑橘类水果通常含有较丰富的维生素C。",
+    "sources": [
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_03",
+    "question": "豆腐和糙米的原料或保留结构分别是什么？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_006",
+      "food_003"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.7340433597564697,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.678534209728241,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.4685336649417877,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      }
+    ],
+    "answer": "豆腐的主要原料是大豆；糙米保留了米糠层和胚芽。",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_04",
+    "question": "冷冻食品保存和花生过敏防护分别要注意什么？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_005",
+      "food_001",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_005",
+        "score": 0.749210000038147,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.6817672252655029,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.609470546245575,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "冷冻食品保存应注意保存在零下18摄氏度或更低的温度；花生过敏防护应注意检查食品配料表并避免摄入花生。",
+    "sources": [
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_05",
+    "question": "酸奶制作和蔬菜高温久煮分别涉及什么变化？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_007",
+      "food_003",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_007",
+        "score": 0.6757423281669617,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.6316686868667603,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5492852330207825,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "酸奶制作涉及乳酸菌发酵牛奶的变化；蔬菜高温久煮可能造成部分水溶性维生素流失。",
+    "sources": [
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_06",
+    "question": "两类需要特别储存的食品各自面临什么风险？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_008",
+      "food_005",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_008",
+        "score": 0.5592668056488037,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.4990452527999878,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.49864450097084045,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "开封后的干燥食品面临受潮和变质风险；冷冻食品面临微生物生长和品质变化风险。",
+    "sources": [
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_07",
+    "question": "酸奶和糙米分别提供或富含什么营养？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_003",
+      "food_006",
+      "food_002"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_003",
+        "score": 0.745857834815979,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.6900194883346558,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_002",
+        "score": 0.5104430913925171,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      }
+    ],
+    "answer": "酸奶通常含有蛋白质和钙等营养成分；糙米通常比精白米含有更多膳食纤维。",
+    "sources": [
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_08",
+    "question": "牛奶和大豆分别能加工成文档中的什么食品，过程有什么特点？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_003",
+      "food_006"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.604567289352417,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.5899204015731812,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.4704236388206482,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      }
+    ],
+    "answer": "牛奶可加工成酸奶，其过程特点是乳酸菌发酵。大豆可加工成豆腐，其过程通常包括磨浆、煮浆、凝固和压制。",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_09",
+    "question": "如何分别减缓冷冻食品和干燥食品的品质问题？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_001",
+      "food_008",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_001",
+        "score": 0.7590140104293823,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.649774432182312,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.5526614189147949,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化；开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。",
+    "sources": [
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "multi_10",
+    "question": "购买食品和烹煮蔬菜时，各有什么需要避免的风险？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_007",
+      "food_005",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_007",
+        "score": 0.6296102404594421,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.5967982411384583,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5885363221168518,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "购买食品时：花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。烹煮蔬菜时：蔬菜长时间高温烹煮可能造成部分水溶性维生素流失，应避免长时间高温烹煮。Context未提供购买食品和烹煮蔬菜时的其他风险信息。",
+    "sources": [
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "ambiguous_01",
+    "question": "菜煮得太久，营养方面可能会怎样？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_007",
+      "food_008",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_007",
+        "score": 0.7136301398277283,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5172999501228333,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.5145430564880371,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。",
+    "sources": [
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "ambiguous_02",
+    "question": "那种白色豆制品主要用什么做，怎么做出来？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_003",
+      "food_006"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.6321113109588623,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_003",
+        "score": 0.44976556301116943,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.4172417223453522,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      }
+    ],
+    "answer": "豆腐主要以大豆为原料，制作过程通常包括磨浆、煮浆、凝固和压制。",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "ambiguous_03",
+    "question": "发酵的乳制品是靠什么做成的？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_003",
+      "food_004",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_003",
+        "score": 0.6409450769424438,
+        "source": "食品知识库-加工",
+        "text": "酸奶是由乳酸菌发酵牛奶制成的乳制品，通常含有蛋白质和钙等营养成分。"
+      },
+      {
+        "document_id": "food_004",
+        "score": 0.46976202726364136,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.44007545709609985,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "酸奶是由乳酸菌发酵牛奶制成的。",
+    "sources": [
+      {
+        "document_id": "food_003",
+        "source": "食品知识库-加工"
+      },
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "ambiguous_04",
+    "question": "没去掉外层的米为什么纤维多？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_006",
+      "food_007",
+      "food_008"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_006",
+        "score": 0.6288132071495056,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.40665340423583984,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.383449524641037,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      }
+    ],
+    "answer": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。",
+    "sources": [
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "ambiguous_05",
+    "question": "开袋后的干货怎么放比较稳妥？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_008",
+      "food_001",
+      "food_002"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_008",
+        "score": 0.5826243162155151,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4060356318950653,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_002",
+        "score": 0.3654661178588867,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      }
+    ],
+    "answer": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。",
+    "sources": [
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "unanswerable_01",
+    "question": "法国总统是谁？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_004",
+      "food_002",
+      "food_006"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_004",
+        "score": 0.2370924949645996,
+        "source": "食品知识库-原料",
+        "text": "豆腐的主要原料是大豆，制作过程通常包括磨浆、煮浆、凝固和压制。"
+      },
+      {
+        "document_id": "food_002",
+        "score": 0.22704416513442993,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.17658674716949463,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      }
+    ],
+    "answer": "没有查找到与问题相关的事实证据",
+    "sources": [
+      {
+        "document_id": "food_004",
+        "source": "食品知识库-原料"
+      },
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      }
+    ],
+    "abstained": true,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "unanswerable_02",
+    "question": "Python装饰器有什么作用？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_002",
+      "food_008",
+      "food_006"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_002",
+        "score": 0.2988782525062561,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.2947896122932434,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_006",
+        "score": 0.2707325518131256,
+        "source": "食品知识库-谷物",
+        "text": "糙米保留了米糠层和胚芽，因此通常比精白米含有更多膳食纤维。"
+      }
+    ],
+    "answer": "没有查找到与问题相关的事实证据",
+    "sources": [
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_006",
+        "source": "食品知识库-谷物"
+      }
+    ],
+    "abstained": true,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "unanswerable_03",
+    "question": "牛肉中心温度达到多少才算安全？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_008",
+      "food_001",
+      "food_007"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_008",
+        "score": 0.4691452383995056,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.4672374129295349,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.41794073581695557,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      }
+    ],
+    "answer": "没有查找到与问题相关的事实证据",
+    "sources": [
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      }
+    ],
+    "abstained": true,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "unanswerable_04",
+    "question": "苹果含有多少毫克维生素C？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_002",
+      "food_007",
+      "food_001"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_002",
+        "score": 0.682355523109436,
+        "source": "食品知识库-营养",
+        "text": "橙子、柚子等柑橘类水果通常含有较丰富的维生素C。"
+      },
+      {
+        "document_id": "food_007",
+        "score": 0.44647058844566345,
+        "source": "食品知识库-烹饪",
+        "text": "蔬菜长时间高温烹煮可能造成部分水溶性维生素流失。"
+      },
+      {
+        "document_id": "food_001",
+        "score": 0.42741671204566956,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      }
+    ],
+    "answer": "没有查找到与问题相关的事实证据",
+    "sources": [
+      {
+        "document_id": "food_002",
+        "source": "食品知识库-营养"
+      },
+      {
+        "document_id": "food_007",
+        "source": "食品知识库-烹饪"
+      },
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      }
+    ],
+    "abstained": true,
+    "generation_succeeded": true
+  },
+  {
+    "case_id": "unanswerable_05",
+    "question": "这个食品应该怎么保存？",
+    "llm_model_name": "deepseek-v4-pro-ga-260813",
+    "retrieved_ids": [
+      "food_001",
+      "food_008",
+      "food_005"
+    ],
+    "contexts": [
+      {
+        "document_id": "food_001",
+        "score": 0.5626674890518188,
+        "source": "食品知识库-储存",
+        "text": "冷冻食品应保存在零下18摄氏度或更低的温度，以减缓微生物生长和品质变化。"
+      },
+      {
+        "document_id": "food_008",
+        "score": 0.5490100383758545,
+        "source": "食品知识库-储存",
+        "text": "开封后的干燥食品应密封并存放在阴凉干燥处，以减少受潮和变质风险。"
+      },
+      {
+        "document_id": "food_005",
+        "score": 0.4686179757118225,
+        "source": "食品知识库-过敏原",
+        "text": "花生是常见的食物过敏原，对花生过敏的人应检查食品配料表并避免摄入。"
+      }
+    ],
+    "answer": "Context未明确“这个食品”的具体类别。若为冷冻食品，应保存在零下18摄氏度或更低；若为开封后的干燥食品，应密封并存放在阴凉干燥处。",
+    "sources": [
+      {
+        "document_id": "food_001",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_008",
+        "source": "食品知识库-储存"
+      },
+      {
+        "document_id": "food_005",
+        "source": "食品知识库-过敏原"
+      }
+    ],
+    "abstained": false,
+    "generation_succeeded": true
+  }
+]

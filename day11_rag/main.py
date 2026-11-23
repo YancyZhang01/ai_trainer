@@ -1,7 +1,12 @@
 """最小食品知识 RAG 主流程。"""
 
 from documents import FOOD_DOCUMENTS
-from llm import NO_EVIDENCE_MESSAGE, generate_answer, load_api_key
+from llm import (
+    NO_EVIDENCE_MESSAGE,
+    generate_answer,
+    get_config_error,
+    load_api_key,
+)
 from retriever import build_index, has_relevant_evidence, print_contexts, retrieve
 
 
@@ -34,8 +39,9 @@ def main():
         return
 
     api_key = load_api_key()
-    if not api_key:
-        print("未读取到 GEMINI_API_KEY，请在项目根目录的 .env 文件中设置。")
+    config_error = get_config_error(api_key)
+    if config_error:
+        print(config_error)
         return
 
     model, index = build_index(FOOD_DOCUMENTS)

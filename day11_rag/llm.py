@@ -7,7 +7,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "day10"))
 
-from llm_client import ask_llm, get_api_key
+from llm_client import ask_llm, get_api_key, get_config_error
 
 
 NO_EVIDENCE_MESSAGE = "没有查找到与问题相关的事实证据"

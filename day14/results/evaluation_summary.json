@@ -1,0 +1,68 @@
+{
+  "overall": {
+    "case_count": 50,
+    "retrieval_hit_at_3": 1.0,
+    "mrr": 1.0,
+    "answer_correctness": 0.9283699500613053,
+    "faithfulness": 0.9772727272727273,
+    "answer_relevance": 0.8464631915458376,
+    "context_precision": 0.4074074074074074,
+    "context_recall": 1.0,
+    "abstention_accuracy": 0.98
+  },
+  "不可回答": {
+    "case_count": 5,
+    "retrieval_hit_at_3": null,
+    "mrr": null,
+    "answer_correctness": null,
+    "faithfulness": null,
+    "answer_relevance": null,
+    "context_precision": null,
+    "context_recall": null,
+    "abstention_accuracy": 0.8
+  },
+  "同义改写": {
+    "case_count": 10,
+    "retrieval_hit_at_3": 1.0,
+    "mrr": 1.0,
+    "answer_correctness": 0.9030416775548452,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.7406096302469226,
+    "context_precision": 0.3333333333333333,
+    "context_recall": 1.0,
+    "abstention_accuracy": 1.0
+  },
+  "多证据": {
+    "case_count": 10,
+    "retrieval_hit_at_3": 1.0,
+    "mrr": 1.0,
+    "answer_correctness": 0.9225118516402887,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.865666027890397,
+    "context_precision": 0.6666666666666666,
+    "context_recall": 1.0,
+    "abstention_accuracy": 1.0
+  },
+  "模糊 Query": {
+    "case_count": 5,
+    "retrieval_hit_at_3": 1.0,
+    "mrr": 1.0,
+    "answer_correctness": 0.9373082729856776,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.663244349179206,
+    "context_precision": 0.3333333333333333,
+    "context_recall": 1.0,
+    "abstention_accuracy": 1.0
+  },
+  "简单事实": {
+    "case_count": 20,
+    "retrieval_hit_at_3": 1.0,
+    "mrr": 1.0,
+    "answer_correctness": 0.9404621411686277,
+    "faithfulness": 0.95,
+    "answer_relevance": 0.9355932646146734,
+    "context_precision": 0.3333333333333333,
+    "context_recall": 1.0,
+    "abstention_accuracy": 1.0
+  }
+}
