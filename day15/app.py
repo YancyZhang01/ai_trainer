@@ -1,9 +1,17 @@
 """把已有食品知识 RAG 封装为 FastAPI 服务。"""
 
 import logging
+import sys
 from functools import lru_cache
+from pathlib import Path
 from threading import Lock
 from time import perf_counter
+
+# 兼容 VS Code 的“Run Python File”直接执行方式。
+if __package__ in {None, ""}:
+    project_root = Path(__file__).resolve().parent.parent
+    if str(project_root) not in sys.path:
+        sys.path.insert(0, str(project_root))
 
 from fastapi import FastAPI, HTTPException, status
 from starlette.concurrency import run_in_threadpool
@@ -16,7 +24,7 @@ from shared import (
     LLMResponseError,
 )
 
-from .schemas import (
+from day15.schemas import (
     AskResponse,
     HealthResponse,
     QuestionRequest,
@@ -235,3 +243,9 @@ async def ask(request: QuestionRequest):
         status="ok",
         latency_ms=round((perf_counter() - started_at) * 1000, 2),
     )
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="127.0.0.1", port=8000)

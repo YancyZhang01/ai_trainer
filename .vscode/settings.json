@@ -1,4 +1,16 @@
 {
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.automationProfile.windows": {
+    "source": "PowerShell"
+  },
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.executeInFileDir": false,
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "python": "\"$workspaceRoot\\.venv\\Scripts\\python.exe\" -u \"$fullFileName\""
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
